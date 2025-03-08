@@ -33,8 +33,7 @@
     padding: 0;
     list-style-type: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    font-size: 18px; /* Increased font size */
-  }
+    font-size: 18px; }
   
   .submenu {
     position: absolute;
@@ -42,7 +41,7 @@
     top: 0;
     background-color: white;
     border: 1px solid #ccc;
-    width: 220px; /* Adjusted width */
+    width: 220px;
     padding: 0;
     list-style-type: none;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -55,17 +54,17 @@
   .menu-btn {
     width: 100%;
     text-align: left;
-    padding: 12px; /* Increased padding */
-    font-size: 18px; /* Increased font size */
+    padding: 12px; 
+    font-size: 18px; 
     border: none;
     background: none;
     cursor: pointer;
   }
   
   .submenu-item {
-    padding: 12px; /* Increased padding */
-    font-size: 18px; /* Increased font size */
-    cursor: pointer;
+    padding: 12px;
+      font-size: 18px; 
+      cursor: pointer;
   }
   
   .submenu-item:hover,
