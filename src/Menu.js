@@ -33,12 +33,11 @@ const Menu = () => {
                     Executive ▸
                   </button>
 
-                  {/* Executive Submenu */}
                   {openMenus["executive"] && (
                     <ul className="submenu">
-                      <li className="submenu-item">Executive 1</li>
-                      <li className="submenu-item">Executive 2</li>
-                      <li className="submenu-item">Executive 3</li>
+                      <li className="submenu-item">Executive one</li>
+                      <li className="submenu-item">Executive two</li>
+                      <li className="submenu-item">Executive three</li>
                     </ul>
                   )}
                 </li>
@@ -46,8 +45,7 @@ const Menu = () => {
             )}
           </li>
 
-          {/* Other Menu Options */}
-          <li className="submenu-item">Not Interested</li>
+           <li className="submenu-item">Not Interested</li>
           <li className="submenu-item">Call Back</li>
           <li className="submenu-item">Follow Up</li>
           <li className="submenu-item">Call Not Response</li>
